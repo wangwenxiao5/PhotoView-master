@@ -21,7 +21,7 @@ public class AUILSampleActivity extends Activity {
             ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(getApplicationContext()).build();
             ImageLoader.getInstance().init(config);
         }
-
+        //wwnxiaoÌí¼Ó
         ImageLoader.getInstance().displayImage("http://pbs.twimg.com/media/Bist9mvIYAAeAyQ.jpg", photoView);
     }
 }
